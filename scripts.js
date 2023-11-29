@@ -71,3 +71,73 @@ console.log(moreTechs);
 // Encontrar a posição de um item no array
 let index = moreTechs.indexOf('react')
 console.log(index);
+
+// Operador condicional ternário
+let age = 16
+const canDrive = age >= 18 ? 'can drive' : "can't drive"
+console.log(canDrive)
+
+let incremet = 1
+incremet++
+console.log(incremet)
+
+// if...else
+let temperature = 37
+if(temperature >= 37.5) {
+  console.log('Febre alta')
+} else if(temperature < 37.5 && temperature >= 37) {
+  console.log('Febre moderada')
+} else {
+  console.log('Saudável')
+}
+
+// Switch
+let expression = ''
+
+switch (expression) {
+  case 'a':
+    console.log('a');
+    break
+  case 'b':
+    console.log('b');
+    break
+  default:
+    console.log('default');
+    break
+}
+
+// throw
+function sayMyName(name = '') {
+  if(name === '') {
+    throw 'Nome é obrigatório'
+  }
+
+  console.log(name)
+}
+
+// try...catch
+try {
+  sayMyName('')
+} catch(e) {
+  console.log(e)
+}
+
+console.log('após ao try/catch')
+
+// Estrutura de repetição
+// for
+
+for(let i = 0; i <= 10; i++) {
+  console.log(i);
+}
+
+// while
+
+let num = 0
+while(num <= 10) {
+  console.log(num);
+  num++
+}
+
+// for...of
+// for...in

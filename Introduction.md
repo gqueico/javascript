@@ -14,10 +14,13 @@ Javascript
     ```
 
   -> Tipos primitivos
-      Boolean
-      undefined
-      Number
-      String
+      Diferente dos objetos que possuem referência, ao alterar um dado primitivo é gerado um novo valor, por isso são imutáveis. 
+
+      Mais comuns:
+        - Boolean
+        - undefined
+        - Number
+        - String
   
   -> Boolean
       Representa uma entidade lógica **true** ou **false**
@@ -28,7 +31,8 @@ Javascript
     let weekend = false
     ```
   -> undefined 
-      Valor atribuído automaticamente a um variável vazia.
+      Valor atribuído automaticamente a uma variável vazia.
+      Undefined é algo que não existe.
 
       Exemplo:
 
@@ -75,4 +79,49 @@ Javascript
     let name = 'Mayk Brito'
     let name = `Mayk ${1 + 1}` // resultado é Mayk 2
     ```
-      
+  -> Tipos estruturais
+      São diferentes dos tipos primitivos, pois apresentam uma "estrutura" com atributos e métodos.
+
+      Mais comuns:
+        - Object
+        - Array
+
+  -> Object
+      São objetos e possuem atributos (propriedades) e métodos (funcionalidades).
+
+      Exemplo:
+
+    ```javascript
+    // aqui é criado um Object copo
+    const copo = {
+      material: 'vidro', // atributo String
+      capacidade: 250, //atributo Number
+      cheio: function() {
+        // aqui pode declarar um método para o Object
+      }
+    }
+    ```
+  -> Array
+      Representa um agrupamento de dados em forma de lista.
+
+      Exemplo:
+
+    ```javascript
+    // aqui é criado um Array shoppingList
+    const shoppingList = {
+      'leite',
+      'ovos',
+      'chocolate',
+      2,
+      3,
+    }
+    ```
+  -> Tipo primitivo estrutural
+      Dados do tipo **null** são primitivos estruturais, pois tem um valor (vazio) que são imutáveis e podem apresentar uma estrutura vazia.
+      Null é algo que existe mas é vazio.
+
+      Exemplo:
+
+    ```javascript
+    let appointment = null
+    ```

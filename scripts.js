@@ -138,6 +138,3 @@ while(num <= 10) {
   console.log(num);
   num++
 }
-
-// for...of
-// for...in

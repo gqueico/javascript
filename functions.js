@@ -1,4 +1,6 @@
 // function expression or function anonymous
+
+// parameters - parâmetros
 const sum = function(number1, number2) {
   console.log(number1 + number2)
 }

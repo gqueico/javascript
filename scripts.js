@@ -64,7 +64,7 @@ console.log(techs.slice(0, 2));
 // Removendo 1 ou mais items em qualquer posição do array
 let moreTechs = ['html', 'css', 'js', 'node.js', 'react']
 console.log(moreTechs);
-// Primeiro aguarmento é o indice e o segundo a quantidade
+// Primeiro aguarmento é o indice e o segundo a quantidade que será removido após o indice
 moreTechs.splice(1, 3);
 console.log(moreTechs);
 

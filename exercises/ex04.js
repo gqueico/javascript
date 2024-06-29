@@ -8,10 +8,10 @@ let average = (Number(firstNote) + Number(secondNote) + Number(thirdNote)) / 3;
 if(average > 6 && average >= 10) {
   alert('Parabéns você foi aprovado!');
   average = average.toFixed(0)
-}else if(average > 6 ){
+} else if(average > 6 ){
   alert('Parabéns você foi aprovado!');
   average = average.toFixed(1)
-}else {
+} else {
   alert('Dê o seu melhor na prova de recuperação!');
   average = average.toFixed(1)
 }

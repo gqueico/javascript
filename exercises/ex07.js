@@ -1,8 +1,9 @@
 let option;
 let items = [];
+let userName = prompt('Insira o nome do usuário:')
 
 while(option != 3) {
-  option = Number(prompt(`Olá usuário! Digite o número da opção desejada
+  option = Number(prompt(`Olá ${userName}! Digite o número da opção desejada
   
     [1] Cadastrar um item na lista
     [2] Mostrar itens cadastrados

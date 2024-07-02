@@ -19,16 +19,6 @@ const patients = [
   }
 ];
 
-let patientsNames = []
-
-// for(let index = 0; index < patients.length; index++) {
-//   patientsNames[index] = patients[index].name;
-// };
-
 for(let patient of patients) {
-  patientsNames.push(patient.name);
-};
-
-for(let index = 0; index < patients.length; index++) {
-  alert(`${patients[index].name} tem ${patients[index].age} anos, pesa ${patients[index].weight}kg e tem uma altura de ${patients[index].height}cm.`);
-};
+  alert(`${patient.name} tem ${patient.age} anos, pesa ${patient.weight}kg e tem uma altura de ${patient.height}cm.`)
+}
